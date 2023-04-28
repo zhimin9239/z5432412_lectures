@@ -7,7 +7,7 @@ import os
 
 import pandas as pd
 
-import toolkit_config as cfg
+from project2 import toolkit_config as cfg
 
 QAN_PRC_CSV = os.path.join(cfg.DATADIR, 'qan_prc_2020.csv')
 QAN_NOHEAD_CSV = os.path.join(cfg.DATADIR, 'qan_prc_no_header.csv')

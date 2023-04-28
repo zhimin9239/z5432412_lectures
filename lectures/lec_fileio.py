@@ -5,8 +5,7 @@ Companion codes for the lecture on reading and writing files
 
 import os
 
-import toolkit_config as cfg
-
+from project2 import toolkit_config as cfg
 
 SRCFILE = os.path.join(cfg.DATADIR, 'qan_prc_2020.csv')
 DSTFILE = os.path.join(cfg.DATADIR, 'new_file.txt')
